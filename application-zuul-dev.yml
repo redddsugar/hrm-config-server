@@ -18,8 +18,7 @@ spring:
     name: zuul-5010
 
 zuul:
-  prefix: "/server"    # 统一的请求前缀
+  prefix: "/hrm"    # 统一的请求前缀
   ignored-services: "*"
   routes:
-    order-server: "/systemOrder/**"
-    user-server: "/systemUser/**"
+    hrm-system: "/hrmSystem/**"
