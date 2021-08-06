@@ -1,5 +1,5 @@
 server:
-  port: 5010
+  port: 1020
 
 
 
@@ -9,16 +9,16 @@ eureka:
       defaultZone: http://localhost:1010/eureka/
   instance:
     prefer-ip-address: true # 以自己的ip 作为注册访问地址
-    instance-id: zuul-server:5010 #在仪表盘显示自己的服务标识
+    instance-id: zuul-server:1020 #在仪表盘显示自己的服务标识
 
 
 
 spring:
   application:
-    name: zuul-5010
+    name: zuul-1020
 
 zuul:
   prefix: "/hrm"    # 统一的请求前缀
   ignored-services: "*"
   routes:
-    hrm-system: "/hrmSystem/**"
+    hrm-system: "/system/**"
