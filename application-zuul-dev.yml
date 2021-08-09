@@ -23,3 +23,4 @@ zuul:
   routes:
     hrm-system: "/system/**"
     hrm-file: "/file/**"
+    hrm-course: "/course/**"
