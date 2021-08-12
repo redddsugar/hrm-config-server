@@ -24,3 +24,4 @@ zuul:
     hrm-system: "/system/**"
     hrm-file: "/file/**"
     hrm-course: "/course/**"
+    hrm-es-server: "/search/**"
