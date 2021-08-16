@@ -25,3 +25,4 @@ zuul:
     hrm-file: "/file/**"
     hrm-course: "/course/**"
     hrm-es-server: "/search/**"
+    hrm-user: "/user/**"
